@@ -1,5 +1,6 @@
 package com.springcomplete;
 
+import com.springcomplete.sortpackage.JavaSort;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
