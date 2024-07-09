@@ -1,11 +1,12 @@
-package com.springcomplete;
+package com.springcomplete.sortpackage;
 
 import java.util.ArrayList;
 import java.util.List;
 
 // comparable을 상속하는 자료형 T여야 한단
-public class BubbleSort<T extends Comparable<T>> {
+public class BubbleSort<T extends Comparable<T>> implements SortInterface<T> {
 
+    @Override
     public List<T> sort(List<T> input) {
         List<T> output = new ArrayList<>(input);
 
